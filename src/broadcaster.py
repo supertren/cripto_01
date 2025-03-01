@@ -8,4 +8,6 @@ def get_chain():
     return jsonify({"chain": chain_data})
 
 if __name__ == '__main__':
-    app.run(port=5000)
+    app.run(port=5000)   # Run multiple instances on different ports to simulate a network.
+
+
