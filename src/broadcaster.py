@@ -16,7 +16,7 @@ def create_app(blockchain):
 
 def run_app(blockchain, port=5000):
     app = create_app(blockchain)
-    app.run(host='0.0.0.0', port=port, debug=False)
+    app.run(host='localhost', port=port, debug=False)
 
 if __name__ == "__main__":
     from blockchain import Blockchain
