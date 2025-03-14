@@ -15,8 +15,12 @@ def create_app(blockchain):
     return app
 
 def run_app(blockchain, port=5000):
+    password = ("password")
+    print(f"Password is {password}")
     app = create_app(blockchain)
     app.run(host='localhost', port=port, debug=False)
+
+
 
 if __name__ == "__main__":
     from blockchain import Blockchain
