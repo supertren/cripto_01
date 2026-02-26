@@ -134,3 +134,5 @@ The basic implementation is a **learning tool**, not production-ready. Weaknesse
 ---
 
 Feel free to explore this guide and adapt it to your needs! **Contributions** or **questions**? Open an
+
+Recordé su frase, aquella historia sobre Perlas Ensangrentadas ...
